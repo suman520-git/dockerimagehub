@@ -1,0 +1,13 @@
+prefix=E:/DockerImage/venv/Library
+exec_prefix=E:/DockerImage/venv/Library
+libdir=E:/DockerImage/venv/Library/lib
+sharedlibdir=E:/DockerImage/venv/Library/lib
+includedir=E:/DockerImage/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
